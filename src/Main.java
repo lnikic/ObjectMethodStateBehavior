@@ -8,8 +8,11 @@ public class Main {
         Dog three = new Dog();
         three.size = 35;
 
-        one.bark();
-        two.bark();
-        three.bark();
+        one.bark(3);
+        System.out.println(one.sizeOfDod());
+        two.bark(1);
+        three.bark(2);
+        System.out.println(one.sizeOfAllDogs(one.size, two.size, three.size));
+
     }
 }
