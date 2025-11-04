@@ -20,4 +20,7 @@ public class Dog {
     int sizeOfAllDogs(int x, int z, int c) {
         return x + z + c;
     }
+    int sizeSmallerBy5 (int x) {
+        return x - 5;
+    }
 }
