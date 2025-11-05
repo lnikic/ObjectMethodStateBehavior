@@ -1,8 +1,8 @@
 public class Dog {
-    String name;
-    int size;
+    private String name;
+    private int size;
 
-    void bark(int a) {
+     void bark(int a) {
        while (a > 0) {
            if (size > 60) {
                System.out.println(name + " says" + " Wooof! Wooof!");
@@ -22,5 +22,21 @@ public class Dog {
     }
     int sizeSmallerBy5 (int x) {
         return x - 5;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getSize() {
+        return size;
+    }
+
+    public void setSize(int size) {
+        this.size = size;
     }
 }
