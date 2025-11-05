@@ -27,5 +27,15 @@ public class Main {
         int d = pets[0].getSize();
         pets[1].setSize(5);
         System.out.println(d);
+        int org = 42;
+        Main f = new Main();
+        int y = f.go(org);
+        System.out.println(org + " " + y);
+
+    }
+
+    int go(int arg) {
+        arg = arg * 2;
+        return arg;
     }
 }
